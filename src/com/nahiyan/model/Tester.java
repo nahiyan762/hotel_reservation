@@ -1,0 +1,10 @@
+package com.nahiyan.model;
+
+public class Tester {
+    public static void main(String[] args) {
+        Customer customer = new Customer("first", "secend", "j@domain");
+        System.out.println(customer.toString());
+
+
+    }
+}
